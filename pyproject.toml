@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "taxistream"
+version = "0.1.0"
+description = "Application aimed at simulating a real-time ETL Pipeline"
+authors = ["willi <williejc@ymail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+SQLAlchemy = "^2.0.30"
+kafka = "^1.3.5"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
